@@ -24,15 +24,15 @@
 
     <h2>@container</h2>
     <h3>fluid container</h3>
-    <div>This is a fluid contianer and it will go till the end of the page.</div>
+    <div class="container">This is a fluid contianer and it will go till the end of the page.</div>
     <h3>center container</h3>
-    <div>This is a centered container and it will go till the specified width</div>
+    <div class="container container-center">This is a centered container and it will go till the specified width</div>
 
     <hr>
 
     <h2>@links</h2>
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a href="/" class="link link-primary">Primary Link</a>
+    <a href="/" class="link link-secondary">Secondary Link</a>
 
     <hr>
 
@@ -40,17 +40,17 @@
 
     <h3>unordered list</h3>
     <p>This list will not have the bullet</p>
-    <ul>
+    <ul class="list-non-bullet">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
     </ul>
 
     <h3>unordered inline list</h3>
-    <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Three</li>
     </ul>
 
     <h3>reverse ordered list</h3>
@@ -64,13 +64,20 @@
 
     <h2>@nav</h2>
 
-    <p>iAmBrand</p>
-
-    <ul>
-        <li>home</li>
-        <li>products</li>
-        <li>about</li>
-    </ul>
+    <nav class="navigation container">
+        <div class="nav-brand">iAMBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+            <a href="/" class="link link-active">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="/" class="link">products</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="/" class="link">about</a>
+            </li>
+        </ul>
+    </nav>
 
     <hr>
 
