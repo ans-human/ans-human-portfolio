@@ -1,130 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ans-human-portfolio</title>
-    <link href="/styles.css" rel="stylesheet" />
-</head>
-<body>
-    <h1>Anshuman's component library</h1>
-    <p>I am making this library that can help my projects look more consistent and aesthetic</p>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=
+     , initial-scale=1.0">
+     <title>home | Anshuman's Portfolio</title>
+     <link href="/styles.css" rel="stylesheet" />
+     <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <hr >
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>Here is the normal text. It is free flowing and will wrap around like a paragaph</p>
-    <p>This paragraph will have a <strong>bold</strong> text</p>
-    <small>This is a smaller text</small>
-
-    <hr>
-
-    <h2>@container</h2>
-    <h3>fluid container</h3>
-    <div class="container">This is a fluid contianer and it will go till the end of the page.</div>
-    <h3>center container</h3>
-    <div class="container container-center">This is a centered container and it will go till the specified width</div>
-
-    <hr>
-
-    <h2>@links</h2>
-    <a href="/" class="link link-primary">Primary Link</a>
-    <a href="/" class="link link-secondary">Secondary Link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-
-    <h3>unordered list</h3>
-    <p>This list will not have the bullet</p>
-    <ul class="list-non-bullet">
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Inline Item Two</li>
-        <li class="list-item-inline">Inline Item One</li>
-        <li class="list-item-inline">Inline Item Three</li>
-    </ul>
-
-    <h3>reverse ordered list</h3>
-    <ol reversed>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>break</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
-
+ </head>
+ <body>
     <nav class="navigation container">
-        <div class="nav-brand">iAMBrand</div>
+        <div class="nav-brand">IAMDEVELOPER</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
-            <a href="/" class="link link-active">home</a>
+            <a href="/" class="link link-active">HOME</a>
             </li>
             <li class="list-item-inline">
-                <a href="/" class="link">products</a>
+                <a href="/projects.html" class="link">PROJECTS</a>
             </li>
             <li class="list-item-inline">
-                <a href="/" class="link">about</a>
+                <a href="/blogs.html" class="link">BLOGS</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
-
-    <h2>@header</h2>
     <header class="hero">
-        <img class="hero-img" src="image.svg" />
+        <img class="hero-img" src="/image.svg" />
         <h1 class="hero-heading">Anshuman Kumar, The <span class="heading-inverted">Web Developer</span></h1>
     </header>
-    
 
-    <hr>
-
-    <h2>@section</h2>
+    <section class="section ow"> 
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, C/C++, python, Java and Web Hosting.</p>
+        </div>
+    </section>
 
     <section class="section">
         <div class="container container-center">
-            <h1>white section</h1>
-            <p>We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
+            <h1>Projects</h1>
+            <p>I like to showcase my work and thus you can find my projects hosted online here.</p>
+            <a href="/projects.html" class="link link-primary">See Projects</a>
         </div>
     </section>
-    
+
     <section class="section ow"> 
         <div class="container container-center">
-            <h1>off-white section</h1>
-            <p>We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
+            <h1>Blogs</h1>
+            <p>I like to write sometimes about my thoughts on stuff. Check it out.</p>
+            <a href="/blogs.html" class="link link-secondary">Read Blogs</a>
         </div>
     </section>
 
-    <hr>
-
-    <h1>@footer</h1>
-
     <footer class="footer">
-        <div class="footer-header">Some small heading inside footer</div>
+        <div class="footer-header">Let's get social!</div>
         <ul class="list-non-bullet">
             <li class="list-item-inline">
-                <a class="link" href="/">social one</a>
+                <a class="fa fa-github fa-lg" href="https://github.com/ans-human" target="_blank"></a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">social two</a>
+                <a class="fa fa-linkedin fa-lg" target="_blank" href="https://www.linkedin.com/in/anshuman-kumar-iitbhu"></a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">social three</a>
+                <a class="fa fa-instagram fa-lg" target="_blank" href="https://www.instagram.com/ans.__.human/"></a>
             </li>
         </ul>
         
     </footer>
-    
-</body>
-</html>
+ </body>
+ </html>

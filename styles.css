@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
-    --primary-color: #6C63FF;
+    --primary-color:#1D4ED8
+
+    ;
     --off-white: #F3F4F6;
     --dark-gray: #6B7280;
 }
@@ -38,6 +40,7 @@ hr {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    text-align: center;
 }
 
 .link-primary {
@@ -93,6 +96,9 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+    color: var(--primary-color);
+    background-color: white;
+    border-bottom-left-radius: .5rem;
 }
 
 /* header */
@@ -161,4 +167,35 @@ hr {
 /* blogs */
 .showcase-blog {
     padding-bottom: 6rem;
+}
+
+/* Social buttons */
+
+.fa {
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1rem;
+    width: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .5rem;
+    margin: 1rem 1rem;
+}
+
+.fa-github {
+    background-color: white;
+    color: var(--primary-color);
+}
+
+.fa:hover {
+    background-color: black;
+}
+
+.fa-instagram {
+    background-color: white;
+    color: var(--primary-color);
+}
+
+.fa-linkedin {
+    background-color:white;
+    color: var(--primary-color);
 }
