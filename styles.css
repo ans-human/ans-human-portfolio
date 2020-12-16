@@ -137,6 +137,7 @@ hr {
 }
 
 .ow {
+    padding: .5rem;
     background-color: var(--off-white);
 }
 
